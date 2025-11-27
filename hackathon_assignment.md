@@ -49,6 +49,6 @@ You have **3.5 hours** to build a working demo that demonstrates the shopping ca
 | Area | Description | Weight |
 |------|-------------|--------|
 | Functionality | Does the cart work correctly? | 40% |
-| Code Quality | Organized, readable, maintainable | 25% |
+| Technical Approach & Explanation | How well can the team explain their technical decisions? | 25% |
 | UX/UI | Intuitive and clear | 20% |
 | Creativity | Extra features or ideas | 15% |
