@@ -1,0 +1,16 @@
+boilerplate/
+  models/
+    Product.php
+    CartItem.php
+    Cart.php
+    ShippingOption.php
+    Customer.php
+    Order.php
+  repositories/
+    ProductRepository.php
+    CartRepository.php
+  services/
+    ProductService.php
+    CartService.php
+    CheckoutService.php
+  app.php
