@@ -1,4 +1,4 @@
-# 📦 Gomibo Hackathon Boilerplate
+# 📦 Gomibo Hackathon
 
 This repository provides minimal **backend and frontend boilerplates** to help teams quickly start building their hackathon project.
 Each stack is intentionally lightweight so you can add your own logic and structure during development.
