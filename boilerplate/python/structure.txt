@@ -1,0 +1,16 @@
+boilerplate_py/
+  models/
+    product.py
+    cart_item.py
+    cart.py
+    shipping_option.py
+    customer.py
+    order.py
+  repositories/
+    product_repository.py
+    cart_repository.py
+  services/
+    product_service.py
+    cart_service.py
+    checkout_service.py
+  app.py
