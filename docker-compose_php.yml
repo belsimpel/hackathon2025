@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  php-backend:
+    build:
+      context: ./boilerplate/php
+      dockerfile: Dockerfile
+    working_dir: /app
+    volumes:
+      - ./boilerplate/php/index.php:/app/index.php
+      - ./boilerplate/php/Controllers:/app/Controllers
+      - ./boilerplate/php/Models:/app/Models
+      - ./boilerplate/php/Services:/app/Services
+      - ./boilerplate/php/Repositories:/app/Repositories
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: hackathon
+      MYSQL_USER: hackathon
+      MYSQL_PASSWORD: hackathon
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
